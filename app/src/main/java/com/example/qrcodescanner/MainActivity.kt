@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, ZXingScannerView
             }
         }
          else {
-            mTextView.text = "Seems like this code is invalid. Try another one"
+            mTextView.text = text
         }
 
 
